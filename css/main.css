@@ -2,6 +2,19 @@ body{
 	font-family: georgia;
 }
 
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+.about h2 {
+	font-size: 21px;
+	text-align: center;
+}
+
 .details,
 .details h4 {
 	font-size: 12px;
@@ -21,6 +34,23 @@ body{
 .details h4 {
 	color: red;
 }
+
+.menu_section {
+	overflow: hidden; // this clears floats
+}
+
+.menu_items,
+.food_detail {
+	float: left;
+	width: 80%;
+}
+
+.price {
+	float: right;
+	width: 18%;
+}
+
+
 #trattoria {
 	color:red;font-size:18px; 
 }
