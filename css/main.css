@@ -2,6 +2,25 @@ body{
 	font-family: georgia;
 }
 
+.details,
+.details h4 {
+	font-size: 12px;
+}
+
+.details li {
+	margin: 0;
+}
+
+.details h4,
+.details p {
+	display: inline-block;
+	margin:0;
+	line-height: 18px;
+}
+
+.details h4 {
+	color: red;
+}
 #trattoria {
 	color:red;font-size:18px; 
 }
