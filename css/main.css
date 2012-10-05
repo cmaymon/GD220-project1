@@ -38,11 +38,14 @@ body{
 .menu_section {
 	overflow: hidden; // this clears floats
 }
-
-.menu_items,
-.food_detail {
+.food_groups food_subgroup menu_items food_detail 
+{
 	float: left;
 	width: 80%;
+}
+.food_subgroup {
+		float: left;
+		width:80%
 }
 
 .price {
