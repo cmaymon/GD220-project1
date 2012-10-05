@@ -35,22 +35,68 @@ body{
 	color: red;
 }
 
+.menu_title {
+	font-size: 30px;
+	float: center;
+}
+.specials h1{
+	color: #ffffff;
+	font-size: 18px;
+	float:left;
+	background-color: #5a7b41;
+	
+}
+
+.specials h2{
+	color: white;
+	font-size:18px;
+	float:right;
+	background-color: #5a7b41;
+	
+}
+
 .menu_section {
 	overflow: hidden; // this clears floats
+	float: left;
+	width:80%;
+	color:black;
+	font-size: 28px
 }
-.food_groups food_subgroup menu_items food_detail 
-{
+
+.food_groups food_subgroup menu_items food_detail {
 	float: left;
 	width: 80%;
+	color:black;
+	font-size:24px;
 }
+.food_groups {
+	float:left;
+	color:black
+	font-size:24px;
+}
+.food_groups menu_section{
+	align: left;
+}
+
 .food_subgroup {
 		float: left;
-		width:80%
+		width:80%;
+		color:#5a7b41;
+		font-size: 20px;
 }
 
 .price {
 	float: right;
 	width: 18%;
+	color:red;
+	font-size: 14px;
+}
+
+.menu_items {
+	float: left;
+	width: 80%;
+	color: #e32727;
+	font-size: 18px;
 }
 
 
@@ -72,5 +118,14 @@ body{
 
 .toolbar {
 	background-color:#56743f;font-size: 20px;
+	color:White;
 }
 
+
+
+
+.food_detail {
+	color:black;
+	font-size: 12px;
+	float:left;
+}
