@@ -1,10 +1,10 @@
 body{
     width:800px;
     font-family: georgia;
-    background-color:#f0e9de;
+    background-color:#c3bdab;
     background-image: url(background.jpg);
     background-repeat:repeat-x;
-    background-position:top right;
+    background-position:right top;
     margin: 0 auto;
 }
 
@@ -175,6 +175,10 @@ body{
     padding-left: 40px;
 }
 
+.menu_image {
+	padding-top:0px;
+}
+
 .sub_toolbar {
     background-color:#ffffff;
     display:block;
@@ -225,7 +229,7 @@ body{
 
 #main_image {
     width: 100%;
-    padding-top: 5px;
+   
     
 }
 
@@ -271,19 +275,19 @@ body{
     float: left;
     width: 80%;
     color:black;
-    font-size:24px;
+    
 }
 .food_groups {
     float:left;
     color:black
-    font-size:24px;
+    font-size:30px;
     padding-left: 30px;
     padding-top: 30px;
 }
 
 .food_groups h1 {
     padding-top: 30px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .reviewSection {
@@ -293,9 +297,6 @@ body{
     padding-left: 30px;
 }
 
-#entrees {
-    padding-left: 30px;
-}
 .food_groups menu_section{
     align: left;
 }
@@ -303,22 +304,26 @@ body{
 .food_groups soup_salad {
     padding-top: 30px;
     padding-left: 30px;
-    font-size: 40px;
+    font-size:30px;
+}
+
+.food_groups appetizers {
+	padding-top: 30px;
 }
 
 .food_groups entrees {
-    padding-top: 30px
-    padding-left: 30px;
-    font-size: 40px;
+    padding-top: 30px;
+    padding-left:30px;
+    font-size: 30px;
 }
 
 .food_subgroup {
-        float: left;
-        width:80%;
-        color:#5a7b41;
-        font-size: 30px;
-        padding-left: 30px;
-        padding-top:15px;
+     float: left;
+     width:80%;
+     color:#5a7b41;
+     font-size: 30px;
+     padding-left: 30px;
+     padding-top:15px;
 }
 
 .food_subgroups soup_salad{
@@ -356,6 +361,7 @@ body{
     padding-top:5px;
     font-color: #000000;
     font-size: 12px;
+    padding-bottom: 30px;
 }
 
 
@@ -385,21 +391,21 @@ body{
 }
 
 .reviewSection {
-    font-size:12px;
+    font-size:18px;
     font-color: #000000;
     padding-left: 30px;
     padding-top: 15px;
 }
 
 .reviewSection2 {
-    font-size:12px;
+    font-size:18px;
     font-color: #000000;
     padding-left: 30px;
     padding-top: 15px;
 }
 
 .review_title {
-	font-size: 30px;
+	font-size: 50px;
 	font-color:#000000;
 	padding-top:60px;
 	padding-left: 30px;
