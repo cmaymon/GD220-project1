@@ -353,15 +353,15 @@ body{
     color: #e32727;
     font-size: 18px;
     padding-left:30px;
-    padding-top:10px;
+   
 }
 
 .food_detail {
     padding-left:30px;
-    padding-top:5px;
+    padding-top:10px;
     font-color: #000000;
     font-size: 12px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 
